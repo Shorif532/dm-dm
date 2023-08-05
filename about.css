@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    background-color: #081b29;
+}
+header {
+    padding: 30px 7%;
+    background-color: #333;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+header a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ededed;
+}
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+}
+a:visited{
+    color: whitesmoke;
+}
+a:hover{
+    color: blue;
+}
+.text {
+    padding: 60px 8%;
+    color: aliceblue;
+    width: 60%;
+}
+.home {
+    background: url(PicsArt_07-16-11.43.50.png)no-repeat;
+    background-size: 400px;
+    background-position: right;
+    margin-right: 100px;
+}
+.text p:first-child {
+    font-size: 21px;
+    color: aqua;
+    font-weight: 600;
+}
+.text p:nth-child(2) {
+    margin: 30px 0 30px 0;
+    /* padding: 3px 0 3px 0 */;
+    font-size: 30px;
+    color: aquamarine;
+    font-weight: 600;
+}
+.text p:nth-child(3) {
+    font-size: 18px;
+    color: lightcyan;
+    font-weight: 300;
+}
+.text a {
+    justify-content: space-between;
+    padding: 7px 7px 7px 7px;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    background-color: lightblue;
+    /* border: 2px solid aqua; */
+    border-radius: 0.4rem;
+    font-weight: 600;
+} 
+.text p:last-child {
+    margin-top: 5px;
+}
+.text a:last-child {
+    margin-left: 10px;
+}
+.text a:hover {
+    color: blue;
+    background-color: whitesmoke;
+}

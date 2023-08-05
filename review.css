@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    color: #ededed;
+    background-color: #081b29;
+}
+.logo {
+    text-decoration: none;
+}
+header {
+    background-color: #333;
+    padding: 30px 7%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+    color: lightskyblue;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+    margin-left: 35px;
+}
+a:visited{
+    color: whitesmoke;
+}
+a:hover{
+    color: blue;
+}
+h2 {
+    color:lightcyan;
+    font-size: 20px;
+    padding: 20px 7%;
+}
+fieldset {
+    color: lightcyan;
+    font-family: 'poppins' ,sans-serif;
+    width: 50%;
+    margin: 20px 0 40px;
+    padding: 20px 7%;
+
+}
+button {
+    border: 2px solid lightcyan;
+    color: lightcyan;
+    background-color: black;
+    text-decoration: none;
+    margin-left: 7%;
+    padding: 0.3%;
+}
